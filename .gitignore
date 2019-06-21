@@ -1,0 +1,47 @@
+
+.git/
+.svn/
+.gitignore
+git_auto.sh
+
+### normal prj ###
+.metadata/
+.recommenders/
+bin/
+
+### maven prj ###
+RemoteSystemsTempFiles/
+target/
+out/
+!.mvn/wrapper/maven-wrapper.jar
+classes/
+*.depend
+
+### eclipse rel ###
+.settings/
+.classpath
+.project
+
+### STS rel ###
+.apt_generated
+.factorypath
+.springBeans
+
+### IntelliJ IDEA rel ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+
+!.gitignore
+!.git_auto.sh
